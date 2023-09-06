@@ -1,0 +1,218 @@
+if game.PlaceId == 13910699018 then
+ 
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "BaconBoss Hub | Mushroom Race", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+    
+    _G.win = true
+    _G.rb = true
+    _G.win2 = true
+    _G.win3 = true
+    _G.win4 = true
+    _G.win5 = true
+    _G.win6 = true
+    _G.win7 = true
+    _G.win8 = true
+    _G.win9 = true
+    _G.win10 = true
+    
+    function rb()
+         while _G.rb == true do
+           game:GetService("ReplicatedStorage").GameClient.Events.RemoteEvent.UpdateRebirth:FireServer()
+            wait(0.1)
+        end 
+    end
+    
+    function win()
+         while _G.win == true do
+         game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+         wait(0)
+        end
+    end
+    
+    function win2()
+        while _G.win2 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win3()
+        while _G.win3 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win4()
+        while _G.win4 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win5()
+        while _G.win5 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win6()
+        while _G.win6 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win7()
+        while _G.win7 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win8()
+        while _G.win8 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win9()
+        while _G.win9 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    function win10()
+        while _G.win10 == true do
+        game:GetService("ReplicatedStorage"):WaitForChild("GameClient"):WaitForChild("Events"):WaitForChild("RemoteEvent"):WaitForChild("RestTimerDaliyChest"):FireServer(game:GetService("Players").LocalPlayer)
+        wait(0)
+       end
+    end
+    
+    local MainTab = Window:MakeTab({
+        Name = "Main",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    local Main2Tab = Window:MakeTab({
+        Name = "Other",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    MainTab:AddLabel("Note: Turn On All These Will Super Fast But Kinda Lag")
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win = Value
+            win()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win2 = Value
+            win2()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win3 = Value
+            win3()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win4 = Value
+            win4()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win5 = Value
+            win5()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win6 = Value
+            win6()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win7 = Value
+            win7()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win8 = Value
+            win8()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win9 = Value
+            win9()
+    
+        end
+    })
+    
+    MainTab:AddToggle({
+        Name = "Auto Win Super Fast",
+        Default = false,
+        Callback = function(Value)
+            _G.win10 = Value
+            win10()
+    
+        end
+    })
+    
+    Main2Tab:AddToggle({
+        Name = "Auto Rebirth",
+        Default = false,
+        Callback = function(Value)
+            _G.rb = Value
+            rb()
+        end    
+    })
+    
+    end
